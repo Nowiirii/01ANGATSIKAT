@@ -65,11 +65,14 @@ include 'connection.php';
                         </a>
                         </li>
                         <li class="sidebar-item">
-                        <a class="sidebar-link" href="../activity_management/activities.php" aria-expanded="false"
-                            data-tooltip="Manage Events">
-                            <i class="bx bx-calendar"></i>
-                            <span class="hide-menu">Manage Events</span>
-                        </a>
+                            <a class="sidebar-link" aria-expanded="false" data-tooltip="Manage Events">
+                                <i class="bx bx-calendar"></i>
+                                <span class="hide-menu">Manage Events</span>
+                            </a>
+                            <div class="submenu">
+                                <a href="../activity_management/calendar.php">› Calendar</a>
+                                <a href="../activity_management/activities.php">› Activities</a>
+                            </div>
                         </li>
                         <li class="sidebar-item">
                         <a class="sidebar-link" aria-expanded="false" data-tooltip="Budget">

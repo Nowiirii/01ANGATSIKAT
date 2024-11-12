@@ -45,7 +45,7 @@
             <div>
                 <!-- Brand Logo -->
                 <div class="brand-logo logo-container">
-                    <a href="./index.html" class="logo-img">
+                    <a href="../dashboard/officer_dashboard.php" class="logo-img">
                         <img src="angat sikat.png" alt="Angat Sikat Logo" class="sidebar-logo">
                     </a>
                     <span class="logo-text">ANGATSIKAT</span>
@@ -54,18 +54,21 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="../html/index.html" aria-expanded="false"
+                            <a class="sidebar-link" href="../dashboard/officer_dashboard.php" aria-expanded="false"
                                 data-tooltip="Dashboard">
                                 <i class="bx bxs-dashboard"></i>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="../activity_management/activities.php" aria-expanded="false"
-                                data-tooltip="Manage Events">
+                            <a class="sidebar-link" aria-expanded="false" data-tooltip="Manage Events">
                                 <i class="bx bx-calendar"></i>
                                 <span class="hide-menu">Manage Events</span>
                             </a>
+                            <div class="submenu">
+                                <a href="../activity_management/calendar.php">› Calendar</a>
+                                <a href="../activity_management/activities.php">› Activities</a>
+                            </div>
                         </li>
                         <li class="sidebar-item">
                             <a class="sidebar-link" aria-expanded="false" data-tooltip="Budget">
@@ -97,7 +100,7 @@
                             </div>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="reports.php" aria-expanded="false" data-tooltip="Reports">
+                            <a class="sidebar-link" href="#reports" aria-expanded="false" data-tooltip="Reports">
                                 <i class="bx bx-file"></i>
                                 <span class="hide-menu">Reports</span>
                             </a>
@@ -173,8 +176,8 @@
                             <li><a class="dropdown-item" href="../user/profile.html"><i class="fas fa-user-edit"></i>
                                     Edit
                                     Profile</a></li>
-                            <li><a class="dropdown-item" href="../user/authentication-login.html"><i
-                                        class="fas fa-sign-out-alt"></i> Logout</a></li>
+                            <li><a class="dropdown-item" href="../user/login.html"><i class="fas fa-sign-out-alt"></i>
+                                    Logout</a></li>
                         </ul>
                     </div>
                 </div>
